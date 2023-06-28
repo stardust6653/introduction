@@ -5,6 +5,8 @@ import PointLine from "components/PointLine";
 import Introduce from "components/Introduce";
 import Footer from "components/Footer";
 import CenterAlignment from "components/layout/CenterAlignment";
+import ProjectCard from "components/ProjectCard";
+import Title from "components/ui/Title";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Banner />
         <PointLine />
         <Introduce />
+        <Title title={"<Projects/>"} />
+        <ProjectCard />
       </CenterAlignment>
       <footer>
         <Footer />
