@@ -2,9 +2,9 @@ import React from "react";
 import { styled } from "styled-components";
 import banner from "../images/banner.png";
 
-const Introduce = () => {
+const Banner = () => {
   return (
-    <IntroduceComponent>
+    <BannerComponent>
       <TextBox>
         <TextLeft>도서관을 만들고 싶은</TextLeft>
         <TextRight>
@@ -12,11 +12,11 @@ const Introduce = () => {
         </TextRight>
       </TextBox>
       <TextEn>Looking For A Job!</TextEn>
-    </IntroduceComponent>
+    </BannerComponent>
   );
 };
 
-const IntroduceComponent = styled.div`
+const BannerComponent = styled.div`
   position: relative;
   width: 100%;
   height: 600px;
@@ -61,4 +61,4 @@ const TextPoint = styled.span`
   font-weight: 600;
 `;
 
-export default Introduce;
+export default Banner;
