@@ -11,7 +11,7 @@ type Props = {
   useStack: string[];
   whyUseStack?: {
     stack: string;
-    reason: string | string[];
+    reason: string[];
   }[];
   posts?: { title: string; link: string }[];
 };
@@ -52,13 +52,15 @@ export const projectsData: Props[] = [
     whyUseStack: [
       {
         stack: "Firebase",
-        reason:
+        reason: [
           "서버와의 통신이 필요한 서비스를 제작하지만 백엔드 개발자가 없는 Swap() 프로젝트의 단점을 상당부분 커버해줄 수 있는 서비리스 서비스였습니다. 다양한 기능을 지원하면서 공식문서의 설명이 잘되어있어 비교적 쉽게 적응하고 활용할 수 있는 장점이 있어 사용했습니다.",
+        ],
       },
       {
         stack: "Recoil",
-        reason:
+        reason: [
           "Recoil을 사용한 이유는 보일러 플레이트가 거의 없어 사용법이 간단하다. 라는 리코일의 장점 때문에 도입하였고, 이는 팀원 모두 만족하는 선택이 되었습니다.",
+        ],
       },
       {
         stack: "TypeScript",
@@ -100,13 +102,15 @@ export const projectsData: Props[] = [
     whyUseStack: [
       {
         stack: "Next.js",
-        reason:
+        reason: [
           "Next.js의 장점은 렌더링 방식에 있습니다. Next.js 13버전부터는 layout.js를 활용한 레이아웃 재사용과 더불어 컴포넌트 단위의 렌더링 방식 설정이 가능해졌습니다. 이 때문에 더 나은 성능을 기대할 수 있게 되었고, 더불어 블로그 프로젝트이므로 SEO최적화를 고려해 Next.js를 활용하게 되었습니다.",
+        ],
       },
       {
         stack: "Tailwind CSS",
-        reason:
+        reason: [
           "Next.js의 단점으로는 아직까지 낮은 호환성이 있습니다. 그 중 가장 불편했던 것이 CSS IN JS의 사용이 어렵다는 점이었는데, 13버전부터 CSS IN JS의 공식 지원을 시작했으나 여전히 불안정적이어서 Utility CSS 라이브러리인 Tailwind를 활용해 CSS 작성 편의성을 고려했습니다.",
+        ],
       },
     ],
   },
