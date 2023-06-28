@@ -1,6 +1,7 @@
 import Header from "components/Header";
 import "./globals.css";
 import Introduce from "components/Introduce";
+import PointLine from "components/PointLine";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <Introduce />
+        <PointLine text={"음"} />
       </main>
     </div>
   );
