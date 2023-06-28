@@ -8,6 +8,7 @@ import AddressIcon from "./ui/icons/AddressIcon";
 import MailIcon from "./ui/icons/MailIcon";
 import BlogIcon from "./ui/icons/BlogIcon";
 import GithubIcon from "./ui/icons/GithubIcon";
+import Title from "./ui/Title";
 
 type Props = {
   icon: any;
@@ -69,7 +70,7 @@ const Introduce = () => {
 
   return (
     <IntroduceLayout>
-      <Title> &lt;Introduction/&gt;</Title>
+      <Title title={"<Introduction/>"} />
       <IntroTextGroup>
         <IntroText>정리하며 발전하는 "Develop"er</IntroText>
         <IntroText>
@@ -102,12 +103,6 @@ const IntroduceLayout = styled.section`
   align-items: center;
   flex-direction: column;
   padding-bottom: 4rem;
-`;
-
-const Title = styled.h2`
-  margin-top: 4rem;
-  font-family: "Anybody", cursive;
-  font-size: 4.5rem;
 `;
 
 const IntroTextGroup = styled.div`
