@@ -1,5 +1,12 @@
+import Header from "components/Header";
+import "./globals.css";
+
 function App() {
-  return <div className="App">안녕하세요!</div>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
