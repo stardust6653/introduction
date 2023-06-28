@@ -1,19 +1,14 @@
 import React from "react";
 import { styled } from "styled-components";
 
-type Props = {
-  text: string;
-};
-
-const PointLine = ({ text }: Props) => {
-  return <Line>{text}</Line>;
+const PointLine = () => {
+  return <Line />;
 };
 
 const Line = styled.div`
   width: 100vw;
-  height: 79px;
+  height: 50px;
   background-color: #320202;
-  overflow: hidden;
 `;
 
 export default PointLine;

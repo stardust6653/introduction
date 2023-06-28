@@ -11,7 +11,7 @@ function App() {
       </header>
       <main>
         <Introduce />
-        <PointLine text={"음"} />
+        <PointLine />
       </main>
     </div>
   );
