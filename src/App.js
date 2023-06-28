@@ -1,6 +1,6 @@
 import Header from "components/Header";
 import "./globals.css";
-import Introduce from "components/Introduce";
+import Banner from "components/Banner";
 import PointLine from "components/PointLine";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Header />
       </header>
       <main>
-        <Introduce />
+        <Banner />
         <PointLine />
       </main>
     </div>
