@@ -7,7 +7,7 @@ const PointLine = () => {
 
 const Line = styled.div`
   width: 100vw;
-  height: 50px;
+  height: 20px;
   background-color: #320202;
 `;
 
