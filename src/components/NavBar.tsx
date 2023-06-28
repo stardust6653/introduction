@@ -1,13 +1,13 @@
 import React from "react";
 import { styled } from "styled-components";
 
-const menu = [{ type: "자기소개" }, { type: "프로젝트" }, { type: "활동" }];
+const menu = [{ type: "Intro" }, { type: "Projects" }, { type: "Active" }];
 
 const NavBar = () => {
   return (
     <MenuList>
       {menu.map((item) => (
-        <MenuItem>{item.type}</MenuItem>
+        <MenuItem key={item.type}>{item.type}</MenuItem>
       ))}
     </MenuList>
   );
@@ -18,6 +18,7 @@ const MenuList = styled.ul`
 `;
 
 const MenuItem = styled.li`
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 1.2rem;
   margin-left: 2rem;
 `;
