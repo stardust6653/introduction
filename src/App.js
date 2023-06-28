@@ -17,7 +17,6 @@ function App() {
         <PointLine />
         <Introduce />
       </CenterAlignment>
-
       <footer>
         <Footer />
       </footer>
