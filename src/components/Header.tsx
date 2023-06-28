@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <HeaderComponent>
       <HeaderContents>
-        <Title>Soye</Title>
+        <Title>PSY Introduce</Title>
         <NavBar />
       </HeaderContents>
     </HeaderComponent>
@@ -14,8 +14,12 @@ const Header = () => {
 };
 
 const HeaderComponent = styled.div`
+  display: flex;
+  align-items: center;
   width: 100%;
-  background-color: #ffeeb4;
+  height: 5rem;
+  background-color: #172027;
+  color: #fbfbfb;
 `;
 
 const HeaderContents = styled.div`
@@ -29,7 +33,9 @@ const HeaderContents = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
 `;
 
 export default Header;
