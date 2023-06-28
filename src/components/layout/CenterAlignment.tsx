@@ -9,11 +9,11 @@ const CenterAlignment = ({ children }: Props) => {
   return <Alignment>{children}</Alignment>;
 };
 
+export default CenterAlignment;
+
 const Alignment = styled.main`
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
-
-export default CenterAlignment;

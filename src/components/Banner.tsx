@@ -16,6 +16,8 @@ const Banner = () => {
   );
 };
 
+export default Banner;
+
 const BannerComponent = styled.div`
   position: relative;
   width: 100%;
@@ -60,5 +62,3 @@ const TextPoint = styled.span`
   color: #ffc530;
   font-weight: 600;
 `;
-
-export default Banner;

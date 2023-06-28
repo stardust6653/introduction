@@ -13,6 +13,8 @@ const Header = () => {
   );
 };
 
+export default Header;
+
 const HeaderComponent = styled.div`
   display: flex;
   align-items: center;
@@ -37,5 +39,3 @@ const Title = styled.h1`
   font-size: 30px;
   font-weight: 700;
 `;
-
-export default Header;

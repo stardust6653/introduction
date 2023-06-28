@@ -13,6 +13,8 @@ const NavBar = () => {
   );
 };
 
+export default NavBar;
+
 const MenuList = styled.ul`
   display: flex;
 `;
@@ -22,5 +24,3 @@ const MenuItem = styled.li`
   font-size: 1.2rem;
   margin-left: 2rem;
 `;
-
-export default NavBar;

@@ -97,6 +97,8 @@ const Introduce = () => {
   );
 };
 
+export default Introduce;
+
 const IntroduceLayout = styled.section`
   width: 100%;
   display: flex;
@@ -165,5 +167,3 @@ const InfoType = styled.span`
   margin-bottom: 1.5rem;
   font-weight: 600;
 `;
-
-export default Introduce;
