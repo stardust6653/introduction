@@ -10,14 +10,12 @@ const ProjectCardList = () => {
 
   const setIndexFn = (type: string) => {
     if (type === "increase") {
-      console.log(cardIndex);
       if (cardIndex >= projectsData.length - 1) {
         setCardIndex(0);
       } else {
         setCardIndex(cardIndex + 1);
       }
     } else if (type === "decrease") {
-      console.log(cardIndex);
       if (cardIndex <= 0) {
         setCardIndex(projectsData.length - 1);
       } else {
@@ -38,14 +36,14 @@ const ProjectCardList = () => {
               setIndexFn("decrease");
             }}
           >
-            <AiOutlineLeft />
+            <Arrow>←</Arrow>
           </ArrowButton>
           <ArrowButton
             onClick={() => {
               setIndexFn("increase");
             }}
           >
-            <AiOutlineRight />
+            <Arrow>→</Arrow>
           </ArrowButton>
         </ArrowBtnComponent>
       </ProjectCardComponent>
@@ -89,4 +87,8 @@ const ArrowButton = styled.button`
   height: 80px;
   border-radius: 100%;
   font-size: 40px;
+`;
+
+const Arrow = styled.p`
+  margin-bottom: 4px;
 `;
