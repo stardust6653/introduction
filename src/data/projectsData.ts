@@ -137,6 +137,7 @@ export const projectsData: Props[] = [
       "현재 보시고 계시는 사이트입니다. 리액트를 활용하여 만든 포트폴리오 사이트입니다.",
     screenshot: [portfolio, portfolioProject],
     github: "https://github.com/stardust6653/introduction",
+    deploy: "https://soye-portfolio.vercel.app/",
     useStack: ["React.js", "Styled-Components"],
   },
 ];
