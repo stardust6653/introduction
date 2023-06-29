@@ -28,7 +28,7 @@ const ProjectCardList = () => {
 
   return (
     <ProjectCardListComponent>
-      <Title title={"<Projects/>"} />
+      <Title title={"<Projects/>"} linkName="Projects" />
 
       <ProjectCardComponent>
         <ProjectCard cardIndex={cardIndex} />

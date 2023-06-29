@@ -7,7 +7,6 @@ type Props = {
 };
 
 const ActiveCard = ({ post }: Props) => {
-  console.log(post.title);
   return (
     <>
       <ActiveCardComponent key={post.title}>
@@ -21,7 +20,7 @@ const ActiveCard = ({ post }: Props) => {
 export default ActiveCard;
 
 const ActiveCardComponent = styled.div`
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   text-align: center;

@@ -20,6 +20,5 @@ const FooterLayout = styled.div`
   color: white;
   width: 100%;
   background-color: #172027;
-  margin-top: 50px;
   padding: 2rem;
 `;

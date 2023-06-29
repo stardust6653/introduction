@@ -7,7 +7,7 @@ import { EffortProps, effortData } from "data/effortData";
 const EffortList = () => {
   return (
     <EffortListComponent>
-      <Title title={"<Effort/>"} />
+      <Title title={"<Effort/>"} linkName="Effort" />
       <CardListComponent>
         {effortData.map((item: EffortProps) => {
           return <EffortCard post={item} />;
