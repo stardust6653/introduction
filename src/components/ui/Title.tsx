@@ -3,16 +3,21 @@ import { styled } from "styled-components";
 
 type Props = {
   title: string;
+  linkName: string;
 };
 
-const Title = ({ title }: Props) => {
-  return <Text>{title}</Text>;
+const Title = ({ title, linkName }: Props) => {
+  return (
+    <div id={linkName}>
+      <Text>{title}</Text>
+    </div>
+  );
 };
 
 export default Title;
 
 const Text = styled.h2`
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-family: "Anybody", cursive;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 `;
