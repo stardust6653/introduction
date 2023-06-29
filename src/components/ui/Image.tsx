@@ -29,4 +29,5 @@ const ImageComponent = styled.img`
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
 `;

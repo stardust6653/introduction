@@ -43,7 +43,7 @@ const InfoArr = [
   {
     icon: <GithubIcon />,
     text: "깃헙 바로가기",
-    link: "https://soyeah-log.vercel.app/",
+    link: "https://github.com/stardust6653",
   },
 ];
 
