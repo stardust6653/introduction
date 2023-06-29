@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <HeaderComponent>
       <HeaderContents>
-        <Title>PSY Introduce</Title>
+        <Title>
+          <PointText>Soye</PointText> Introduce
+        </Title>
         <NavBar />
       </HeaderContents>
     </HeaderComponent>
@@ -38,4 +40,8 @@ const Title = styled.h1`
   font-family: "Noto Sans KR", sans-serif;
   font-size: 30px;
   font-weight: 700;
+`;
+
+const PointText = styled.span`
+  color: #ffc530;
 `;
