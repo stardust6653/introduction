@@ -49,7 +49,11 @@ const InfoArr = [
 
 const viewInfo = (item: Props) => {
   if (item.link) {
-    return <a href={item.link}>{item.text}</a>;
+    return (
+      <a href={item.link} target="blank">
+        {item.text}
+      </a>
+    );
   } else if (item.mail) {
     return <a href={`mailto:${item.mail}`}>{item.text}</a>;
   } else {
