@@ -5,7 +5,7 @@ import Title from "./ui/Title";
 const Outro = () => {
   return (
     <OutroLayout>
-      <Title title={"<Outro>"} linkName="Outro" />
+      <Title title={"<Outro/>"} linkName="Outro" />
       <TextBox>
         <TextGroup>
           <TitleText>당신의 왜 FE개발자가 되었나요?</TitleText>
