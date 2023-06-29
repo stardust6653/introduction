@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { styled } from "styled-components";
 import Title from "./ui/Title";
 import ProjectCard from "./ProjectCard";
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { projectsData } from "data/projectsData";
 
 const ProjectCardList = () => {
