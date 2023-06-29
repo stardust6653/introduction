@@ -43,7 +43,7 @@ const Text = styled.p`
 
 const TextEn = styled.p`
   font-size: 60px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.3);
   font-weight: 600;
   position: absolute;
   bottom: 100px;

@@ -1,8 +1,8 @@
 import React from "react";
 import { VscSymbolNamespace } from "react-icons/vsc";
 
-const NameSpace = () => {
+const NameSpaceIcon = () => {
   return <VscSymbolNamespace />;
 };
 
-export default NameSpace;
+export default NameSpaceIcon;
