@@ -1,10 +1,28 @@
+import swap from "../images/swap/swap.png";
+import swapDetail from "../images/swap/swap-detail.png";
+import swapEditor from "../images/swap/swap-editor.png";
+
+import blog from "../images/blog/soyeah-blog.png";
+import blogPost from "../images/blog/soyeah-blog-post.png";
+import blogEditor1 from "../images/blog/soyeah-blog-editor1.png";
+import blogEditor2 from "../images/blog/soyeah-blog-editor2.png";
+
+import instagram from "../images/instagram/instagram.png";
+import instagramPost from "../images/instagram/instagram-post.png";
+import instagramDetail from "../images/instagram/instagram-detail.png";
+import instagramSearch from "../images/instagram/instagram-search.png";
+
+import scissorRockPaper from "../images/scissor-rock-paper/scissor-rock-paper.png";
+import scissorRockPaperSave from "../images/scissor-rock-paper/scissor-rock-paper-save.png";
+import scissorRockPaperLoad from "../images/scissor-rock-paper/scissor-rock-paper-load.png";
+
+import portfolio from "../images/portfolio/portfolio.png";
+import portfolioProject from "../images/portfolio/portfolio-project.png";
+
 type Props = {
   projectName: string;
   projectIntro: string;
-  myTask: {
-    task: string;
-    description?: string;
-  }[];
+  screenshot: string[];
   github?: string;
   notion?: string;
   deploy?: string;
@@ -20,24 +38,9 @@ export const projectsData: Props[] = [
   {
     projectName: "Swap()",
     projectIntro:
-      "아이돌 굿즈와 같은 덕질 물품을 교환하거나 나눔할 수 있는 플랫폼",
-    myTask: [
-      {
-        task: "게시물 작성 마크업 및 기능 구현",
-        description:
-          "로그인 시 게시글을 작성할 수 있도록 했으며, 게시물 작성 시 이미지 추가 및 이미지 드래그 앤 드롭으로 순서 지정 및 해시 태그 작성 기능을 추가했습니다.",
-      },
-      {
-        task: "게시물 리스트 마크업 및 필터 구현",
-        description:
-          "등록된 게시물들의 리스트를 마크업하고 파이어베이스의 기능을 활용해 최신 순, 오래된 순 필터 기능을 구현하였습니다.",
-      },
-      {
-        task: "디테일 페이지 캐러셀 구현",
-        description:
-          "등록된 이미지가 다수일 경우 동작하는 캐러셀을 구현하였습니다.",
-      },
-    ],
+      "아이돌 굿즈와 같은 덕질 물품을 교환하거나 나눔할 수 있는 플랫폼입니다. 이 사이드 프로젝트를 하면서 게시물 작성 및 등록 게시글 리스트, 디테일 페이지 등을 맡아 작업했습니다. ",
+    screenshot: [swap, swapDetail, swapEditor],
+
     github: "https://github.com/project-swap/swap",
     notion:
       "https://dull-foundation-110.notion.site/swap-a3162998f48642dd88688b1281a692c4",
@@ -87,13 +90,10 @@ export const projectsData: Props[] = [
   },
   {
     projectName: "Next Blog",
-    projectIntro: "Next.js 13버전을 활용한 Blog",
-    myTask: [
-      { task: "Next.js를 활용한 SSG" },
-      { task: "Toast UI Editor를 활용한 Editor 및 Viewer 구현" },
-      { task: "Firebase를 활용한 게시물 저장과 조회" },
-      { task: "반응형 웹페이지 구현" },
-    ],
+    projectIntro:
+      "Next.js 13버전을 활용한 Blog로서 Toast UI를 활용한 Editor 환경 구축으로 손쉽게 블로깅할 수 있도록 하였습니다. 또한 모바일이나 태블릿에서도 블로그 글을 볼 수 있도록 반응형으로 제작한 개인 사이트 입니다.",
+    screenshot: [blog, blogPost, blogEditor1, blogEditor2],
+
     github: "https://github.com/stardust6653/next-blog-project",
     notion:
       "https://sobak.notion.site/Blog-Project-1a0fad285f41445a8db1d3f0931a714f",
@@ -114,11 +114,37 @@ export const projectsData: Props[] = [
       },
     ],
   },
+  {
+    projectName: "Instagram Clone",
+    projectIntro:
+      "최신버전 넥스트를 활용한 인스타그램 클론코딩입니다. Sanity와 Next를 활용해 백엔드를 구현합니다. 이 클론 코딩을 통해 Next.js가 (프론트 지향적) 풀스택 프레임워크로 불리는 이유에 대해서 다시 한번 생각하게 되었습니다.",
+    screenshot: [instagram, instagramPost, instagramDetail, instagramSearch],
+    github: "https://github.com/stardust6653/instagram-clone",
+    deploy: "https://instagram-clone-tawny-psi.vercel.app/",
+    useStack: ["Next.js 13", "Tailwind", "Sanity", "TypeScript"],
+  },
+  {
+    projectName: "가위바위보",
+    projectIntro:
+      "리액트를 활용하여 만든 가위바위보 게임입니다. 로컬스토리지를 활용한 데이터 저장 및 불러오기 기능을 지원하고 있습니다. ",
+    screenshot: [scissorRockPaper, scissorRockPaperSave, scissorRockPaperLoad],
+    github: "https://github.com/stardust6653/rock-paper-scissors",
+    useStack: ["React.js", "JavaScript", "Styled-Components"],
+  },
+  {
+    projectName: "포트폴리오 웹",
+    projectIntro:
+      "현재 보시고 계시는 사이트입니다. 리액트를 활용하여 만든 포트폴리오 사이트입니다.",
+    screenshot: [portfolio, portfolioProject],
+    github: "https://github.com/stardust6653/introduction",
+    useStack: ["React.js", "Styled-Components"],
+  },
 ];
 
 // {
 //   projectName: "",
 //   projectIntro: "",
+//   screenshot: ""
 //   myTask: [{ task: "", description: "" }],
 //   github: "",
 //   notion: "",
