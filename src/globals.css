@@ -88,7 +88,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: "Noto Sans KR", sans-serif;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -133,4 +132,8 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
 }
