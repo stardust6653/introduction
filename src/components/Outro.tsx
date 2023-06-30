@@ -8,7 +8,7 @@ const Outro = () => {
       <Title title={"<Outro/>"} linkName="Outro" />
       <TextBox>
         <TextGroup>
-          <TitleText>당신의 왜 FE개발자가 되었나요?</TitleText>
+          <TitleText>당신은 왜 FE개발자가 되었나요?</TitleText>
           <Text>
             고객센터에서 근무하던 중 UX/UI와 관련된 클레임을 많이 겪었습니다.
             <br />
