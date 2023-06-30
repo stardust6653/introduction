@@ -30,7 +30,7 @@ const BannerComponent = styled.div`
 `;
 
 const TextBox = styled.div`
-  margin-top: 100px;
+  margin-top: 180px;
   width: 800px;
 `;
 
