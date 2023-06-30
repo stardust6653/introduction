@@ -65,6 +65,12 @@ const TextBox = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 3rem 3rem 1rem 3rem;
   margin-top: 2rem;
+  @media only screen and (max-width: 1280px) {
+    width: 80vw;
+  }
+  @media only screen and (max-width: 680px) {
+    width: 70vw;
+  }
 `;
 
 const TextGroup = styled.div`
@@ -76,6 +82,9 @@ const TitleText = styled.p`
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  @media only screen and (max-width: 680px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Text = styled.p`

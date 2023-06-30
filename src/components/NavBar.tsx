@@ -31,6 +31,9 @@ const MenuItem = styled.li`
   font-family: "Noto Sans KR", sans-serif;
   font-size: 1.2rem;
   margin-left: 2rem;
+  @media only screen and (max-width: 860px) {
+    display: none;
+  }
 `;
 
 const MenuLink = styled.a`

@@ -66,6 +66,13 @@ const ProjectCardComponent = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
+
+  @media only screen and (max-width: 1280px) {
+    width: 80vw;
+  }
+  @media only screen and (max-width: 680px) {
+    width: 100vw;
+  }
 `;
 
 const ArrowBtnComponent = styled.div`
@@ -75,6 +82,13 @@ const ArrowBtnComponent = styled.div`
   align-items: center;
   position: absolute;
   top: 42%;
+  @media only screen and (max-width: 1280px) {
+    top: 96.1%;
+  }
+  @media only screen and (max-width: 680px) {
+    top: 97%;
+    width: 70%;
+  }
 `;
 
 const ArrowButton = styled.button`
@@ -86,6 +100,10 @@ const ArrowButton = styled.button`
   height: 80px;
   border-radius: 100%;
   font-size: 40px;
+  @media only screen and (max-width: 680px) {
+    width: 60px;
+    height: 60px;
+  }
 `;
 
 const Arrow = styled.p`

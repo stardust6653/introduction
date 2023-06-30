@@ -27,25 +27,44 @@ const BannerComponent = styled.div`
   background-size: cover;
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 680px) {
+    height: 400px;
+  }
 `;
 
 const TextBox = styled.div`
+  font-size: 60px;
   margin-top: 180px;
   width: 800px;
+  @media only screen and (max-width: 1280px) {
+    width: 80%;
+    text-align: center;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 50px;
+  }
+  @media only screen and (max-width: 680px) {
+    font-size: 40px;
+  }
+  @media only screen and (max-width: 530px) {
+    font-size: 30px;
+  }
 `;
 
 const Text = styled.p`
-  font-size: 60px;
   color: #fbfbfb;
   margin-bottom: 3rem;
 `;
 
 const TextEn = styled.p`
-  font-size: 60px;
+  font-size: 50px;
   color: rgba(255, 255, 255, 0.3);
   font-weight: 600;
   position: absolute;
   bottom: 100px;
+  @media only screen and (max-width: 680px) {
+    display: none;
+  }
 `;
 
 const TextLeft = styled(Text)`
@@ -60,4 +79,14 @@ const TextPoint = styled.span`
   font-size: 70px;
   color: #ffc530;
   font-weight: 600;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 60px;
+  }
+  @media only screen and (max-width: 680px) {
+    font-size: 40px;
+  }
+  @media only screen and (max-width: 530px) {
+    font-size: 30px;
+  }
 `;

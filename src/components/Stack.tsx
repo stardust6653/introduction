@@ -67,6 +67,14 @@ const Stacks = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2rem;
   margin-top: 2rem;
+  @media only screen and (max-width: 1280px) {
+    width: 80vw;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (max-width: 680px) {
+    width: 90vw;
+  }
 `;
 
 const StackItem = styled.div`
@@ -81,8 +89,14 @@ const StackItem = styled.div`
 
 const StackName = styled.p`
   margin-top: 1rem;
+  @media only screen and (max-width: 680px) {
+    display: none;
+  }
 `;
 
 const StackImage = styled.img`
   height: 100px;
+  @media only screen and (max-width: 680px) {
+    height: 80px;
+  }
 `;

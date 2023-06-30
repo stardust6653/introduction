@@ -19,4 +19,7 @@ export default Title;
 const Text = styled.h2`
   margin-top: 6rem;
   font-size: 3.5rem;
+  @media only screen and (max-width: 680px) {
+    font-size: 2.5rem;
+  }
 `;

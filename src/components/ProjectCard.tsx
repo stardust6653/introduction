@@ -87,6 +87,10 @@ const ProjectCardComponent = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 60px 80px;
   background-color: #f8f8f8;
+  @media only screen and (max-width: 680px) {
+    width: 90%;
+    padding: 32px 32px;
+  }
 `;
 
 const NameComponent = styled.div``;
@@ -94,6 +98,9 @@ const NameComponent = styled.div``;
 const CardTitle = styled.h2`
   font-size: 3rem;
   margin-bottom: 1.3rem;
+  @media only screen and (max-width: 680px) {
+    font-size: 2rem;
+  }
 `;
 
 const UseStack = styled.span`
@@ -103,9 +110,16 @@ const UseStack = styled.span`
   border-radius: 10px;
   padding: 10px;
   text-align: center;
+  @media only screen and (max-width: 680px) {
+    font-size: 0.7rem;
+  }
 `;
 
-const LinkGroup = styled.div``;
+const LinkGroup = styled.div`
+  @media only screen and (max-width: 680px) {
+    width: 80vw;
+  }
+`;
 
 const Link = styled.a`
   text-align: center;
@@ -115,18 +129,27 @@ const Link = styled.a`
     border-bottom: 2px solid black;
     font-weight: 700;
   }
+  @media only screen and (max-width: 680px) {
+    font-size: 1rem;
+  }
 `;
 
 const ListTitle = styled.h3`
   color: #172027;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  @media only screen and (max-width: 680px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Description = styled.p`
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
+  @media only screen and (max-width: 680px) {
+    font-size: 1rem;
+  }
 `;
 
 const ImageComponent = styled.div`
@@ -140,6 +163,11 @@ const AnotherImageList = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   margin-bottom: 2rem;
+  @media only screen and (max-width: 860px) {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
 `;
 
 const IntroductionComponent = styled.div`

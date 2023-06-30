@@ -126,13 +126,32 @@ const IntroTextGroup = styled.div`
   text-align: center;
   width: 50%;
   padding: 50px;
+  @media only screen and (max-width: 1560px) {
+    width: 80%;
+  }
 `;
 
 const IntroText = styled.p`
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  @media only screen and (max-width: 950px) {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  @media only screen and (max-width: 680px) {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  @media only screen and (max-width: 430px) {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
 `;
 
 const IntroTextPoint = styled.span`
@@ -142,14 +161,29 @@ const IntroTextPoint = styled.span`
   font-weight: 700;
   color: #ffc530;
   margin-bottom: 1rem;
+  @media only screen and (max-width: 950px) {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+
+  @media only screen and (max-width: 680px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  @media only screen and (max-width: 680px) {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
 `;
 
 const ProfileImage = styled.img`
   width: 303px;
-  height: 394px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 
   border-radius: 10px;
+  @media only screen and (max-width: 480px) {
+    width: 70%;
+  }
 `;
 
 const InfoBoxGroup = styled.div`
@@ -160,7 +194,12 @@ const InfoBoxGroup = styled.div`
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 2.5rem;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 const InfoBox = styled.div`
@@ -171,6 +210,10 @@ const InfoBox = styled.div`
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: 600;
+  @media only screen and (max-width: 680px) {
+    font-size: 1rem;
+    font-weight: 500;
+  }
 `;
 
 const InfoType = styled.div`

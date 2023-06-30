@@ -16,9 +16,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <FixedComponent>
-          <Header />
-        </FixedComponent>
+        <Header />
       </header>
       <CenterAlignment>
         <Banner />
@@ -37,10 +35,3 @@ function App() {
 }
 
 export default App;
-
-const FixedComponent = styled.div`
-  z-index: 999;
-  width: 100%;
-  top: 0;
-  position: fixed;
-`;
