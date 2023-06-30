@@ -8,7 +8,7 @@ const PointLine = () => {
 export default PointLine;
 
 const Line = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 20px;
   background-color: #320202;
 `;
