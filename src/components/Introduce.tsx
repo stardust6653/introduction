@@ -112,18 +112,21 @@ const IntroduceLayout = styled.section`
 `;
 
 const IntroTextGroup = styled.div`
+  font-family: "Noto Sans KR", sans-serif;
   text-align: center;
   width: 50%;
   padding: 50px;
 `;
 
 const IntroText = styled.p`
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 1rem;
 `;
 
 const IntroTextPoint = styled.span`
+  font-family: "Noto Sans KR", sans-serif;
   display: inline-block;
   font-size: 60px;
   font-weight: 700;
