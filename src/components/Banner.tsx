@@ -4,7 +4,7 @@ import banner from "../images/banner.png";
 
 const Banner = () => {
   return (
-    <BannerComponent>
+    <BannerComponent id="home">
       <TextBox>
         <TextLeft>도서관을 만들고 싶은</TextLeft>
         <TextRight>
