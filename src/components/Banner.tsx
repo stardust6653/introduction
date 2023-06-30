@@ -37,7 +37,6 @@ const TextBox = styled.div`
 const Text = styled.p`
   font-size: 60px;
   color: #fbfbfb;
-  font-family: "Anybody", cursive;
   margin-bottom: 3rem;
 `;
 

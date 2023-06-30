@@ -92,7 +92,6 @@ const ProjectCardComponent = styled.div`
 const NameComponent = styled.div``;
 
 const CardTitle = styled.h2`
-  font-family: "Anybody", cursive;
   font-size: 3rem;
   margin-bottom: 1.3rem;
 `;
