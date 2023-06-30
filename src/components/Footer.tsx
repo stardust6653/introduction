@@ -20,5 +20,5 @@ const FooterLayout = styled.div`
   color: white;
   width: 100%;
   background-color: #172027;
-  padding: 2rem;
+  padding: 2rem 0;
 `;
