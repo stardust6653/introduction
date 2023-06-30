@@ -17,7 +17,6 @@ const Title = ({ title, linkName }: Props) => {
 export default Title;
 
 const Text = styled.h2`
-  margin-top: 3rem;
-  font-family: "Anybody", cursive;
+  margin-top: 6rem;
   font-size: 3.5rem;
 `;
