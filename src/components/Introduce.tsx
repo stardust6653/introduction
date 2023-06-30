@@ -197,6 +197,7 @@ const InfoBoxGroup = styled.div`
 
   @media only screen and (max-width: 480px) {
     width: 100%;
+    border-radius: 0;
     grid-template-rows: repeat(3, 150px);
     grid-template-columns: repeat(2, 1fr);
   }

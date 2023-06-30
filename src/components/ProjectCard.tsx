@@ -88,8 +88,9 @@ const ProjectCardComponent = styled.div`
   padding: 60px 80px;
   background-color: #f8f8f8;
   @media only screen and (max-width: 680px) {
-    width: 90%;
+    width: 100%;
     padding: 32px 32px;
+    border-radius: 0;
   }
 `;
 

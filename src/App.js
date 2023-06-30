@@ -20,7 +20,7 @@ function App() {
       </header>
       <CenterAlignment>
         <Banner />
-        <PointLine />
+
         <Introduce />
         <ProjectCardList />
         <EffortList />
