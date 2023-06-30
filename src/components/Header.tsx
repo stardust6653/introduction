@@ -8,7 +8,7 @@ const Header = () => {
       <HeaderContents>
         <Title>
           <TitleAnker href="#home">
-            <PointText>Soye</PointText> Introduce
+            <PointText>Soye</PointText>'s Portfolio
           </TitleAnker>
         </Title>
         <NavBar />

@@ -35,14 +35,14 @@ const ProjectCardList = () => {
               setIndexFn("decrease");
             }}
           >
-            <Arrow>←</Arrow>
+            <Arrow>Prev</Arrow>
           </ArrowButton>
           <ArrowButton
             onClick={() => {
               setIndexFn("increase");
             }}
           >
-            <Arrow>→</Arrow>
+            <Arrow>Next</Arrow>
           </ArrowButton>
         </ArrowBtnComponent>
       </ProjectCardComponent>
@@ -76,7 +76,7 @@ const ProjectCardComponent = styled.div`
 `;
 
 const ArrowBtnComponent = styled.div`
-  width: 107%;
+  width: 106.4%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,11 +95,16 @@ const ArrowButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(244, 244, 244);
-  width: 80px;
-  height: 80px;
+  background-color: rgb(241, 241, 241);
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 100%;
   font-size: 40px;
+  &:active {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgb(235, 235, 235);
+  }
   @media only screen and (max-width: 680px) {
     width: 60px;
     height: 60px;
@@ -107,5 +112,5 @@ const ArrowButton = styled.button`
 `;
 
 const Arrow = styled.p`
-  margin-bottom: 4px;
+  font-size: 1rem;
 `;
