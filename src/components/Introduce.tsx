@@ -50,14 +50,29 @@ const InfoArr = [
 const viewInfo = (item: Props) => {
   if (item.link) {
     return (
-      <a href={item.link} target="blank">
-        {item.text}
-      </a>
+      <>
+        <InfoItemAnker href={item.link} target="_blank">
+          <InfoType>{item.icon}</InfoType>
+          {item.text}
+        </InfoItemAnker>
+      </>
     );
   } else if (item.mail) {
-    return <a href={`mailto:${item.mail}`}>{item.text}</a>;
+    return (
+      <>
+        <InfoItemAnker href={`mailto:${item.mail}`}>
+          <InfoType>{item.icon}</InfoType>
+          {item.text}
+        </InfoItemAnker>
+      </>
+    );
   } else {
-    return <p>{item.text}</p>;
+    return (
+      <>
+        <InfoType>{item.icon}</InfoType>
+        <p>{item.text}</p>
+      </>
+    );
   }
 };
 
@@ -89,12 +104,7 @@ const Introduce = () => {
       <ProfileImage src={profile} alt="프로필 이미지" />
       <InfoBoxGroup>
         {InfoArr.map((item) => {
-          return (
-            <InfoBox>
-              <InfoType>{item.icon}</InfoType>
-              {viewInfo(item)}
-            </InfoBox>
-          );
+          return <InfoBox>{viewInfo(item)}</InfoBox>;
         })}
       </InfoBoxGroup>
     </IntroduceLayout>
@@ -156,13 +166,14 @@ const InfoBoxGroup = styled.div`
 const InfoBox = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: 600;
 `;
 
-const InfoType = styled.span`
+const InfoType = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,4 +184,11 @@ const InfoType = styled.span`
   border-radius: 50px;
   margin-bottom: 1.5rem;
   font-weight: 600;
+`;
+
+const InfoItemAnker = styled.a`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
