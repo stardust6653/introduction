@@ -10,11 +10,15 @@ import EffortList from "components/EffortList";
 import Outro from "components/Outro";
 import Stack from "components/Stack";
 
+import { styled } from "styled-components";
+
 function App() {
   return (
     <div className="App">
       <header>
-        <Header />
+        <FixedComponent>
+          <Header />
+        </FixedComponent>
       </header>
       <CenterAlignment>
         <Banner />
@@ -33,3 +37,10 @@ function App() {
 }
 
 export default App;
+
+const FixedComponent = styled.div`
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  position: fixed;
+`;
