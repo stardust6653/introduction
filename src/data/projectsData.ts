@@ -134,7 +134,7 @@ export const projectsData: Props[] = [
   {
     projectName: "포트폴리오 웹",
     projectIntro:
-      "현재 보시고 계시는 사이트입니다. 리액트를 활용하여 만든 포트폴리오 사이트입니다.",
+      "현재 보시고 계시는 사이트입니다. 리액트를 활용하여 만든 포트폴리오 사이트이며 모바일과 태블릿에 맞춰 반응형 사이트로 구현하였습니다.",
     screenshot: [portfolio, portfolioProject],
     github: "https://github.com/stardust6653/introduction",
     deploy: "https://soye-portfolio.vercel.app/",
