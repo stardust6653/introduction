@@ -99,8 +99,10 @@ const ArrowButton = styled.button`
   width: 70px;
   height: 70px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 100%;
+  border-radius: 35px;
   font-size: 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
   &:active {
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgb(235, 235, 235);
@@ -112,5 +114,6 @@ const ArrowButton = styled.button`
 `;
 
 const Arrow = styled.p`
+  color: black;
   font-size: 1rem;
 `;
