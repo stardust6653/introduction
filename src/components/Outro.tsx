@@ -55,8 +55,7 @@ const OutroLayout = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
-
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 `;
 
 const TextBox = styled.div`

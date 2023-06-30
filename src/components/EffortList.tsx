@@ -23,7 +23,7 @@ const EffortListComponent = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  padding-bottom: 6rem;
 `;
 
 const CardListComponent = styled.div`

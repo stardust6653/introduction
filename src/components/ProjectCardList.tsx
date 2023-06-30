@@ -58,7 +58,7 @@ const ProjectCardListComponent = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 `;
 
 const ProjectCardComponent = styled.div`

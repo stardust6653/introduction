@@ -108,7 +108,7 @@ const IntroduceLayout = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 `;
 
 const IntroTextGroup = styled.div`

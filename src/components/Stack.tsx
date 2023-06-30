@@ -57,7 +57,7 @@ const StackLayout = styled.section`
   align-items: center;
   width: 100%;
   background-color: #fafafa;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 `;
 
 const Stacks = styled.div`
