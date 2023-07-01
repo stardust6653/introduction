@@ -52,17 +52,22 @@ const OutroLayout = styled.section`
   align-items: center;
   padding: 3rem;
   @media only screen and (max-width: 680px) {
-    padding: 0;
+    padding: 3rem;
   }
 `;
 
 const TextBox = styled.div`
+  width: calc(1160px - 6rem);
   padding: 3rem;
   margin: 3rem 0 5rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  @media only screen and (max-width: 1280px) {
+    width: 80%;
+  }
   @media only screen and (max-width: 680px) {
+    width: 100%;
     border-radius: 0;
   }
 `;
