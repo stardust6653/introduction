@@ -38,11 +38,6 @@ const Outro = () => {
             포트폴리오를 읽어주셔서 감사드립니다.
           </Text>
         </TextGroup>
-
-        <TextGroup>
-          <TitleText></TitleText>
-          <Text></Text>
-        </TextGroup>
       </TextBox>
     </OutroLayout>
   );
@@ -51,49 +46,43 @@ const Outro = () => {
 export default Outro;
 
 const OutroLayout = styled.section`
+  font-family: "Noto Sans KR", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding-bottom: 6rem;
+  padding: 3rem;
+  @media only screen and (max-width: 680px) {
+    padding: 0;
+  }
 `;
 
 const TextBox = styled.div`
-  width: calc(1160px - 6rem);
+  padding: 3rem;
+  margin: 3rem 0 5rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 3rem 3rem 1rem 3rem;
-  margin-top: 2rem;
-  @media only screen and (max-width: 1280px) {
-    width: 80vw;
-  }
   @media only screen and (max-width: 680px) {
-    width: 70vw;
+    border-radius: 0;
   }
 `;
 
 const TextGroup = styled.div`
-  margin-bottom: 2rem;
+  &:first-child {
+    margin-bottom: 3rem;
+  }
 `;
 
 const TitleText = styled.p`
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 700;
   font-size: 1.8rem;
+  font-weight: 700;
   margin-bottom: 1rem;
   @media only screen and (max-width: 680px) {
+    line-height: 2rem;
     font-size: 1.5rem;
   }
 `;
 
 const Text = styled.p`
-  font-family: "Noto Sans KR", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-`;
-
-const PointText = styled.span`
-  color: #ffc530;
+  line-height: 1.4rem;
 `;
