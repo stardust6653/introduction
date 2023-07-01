@@ -25,6 +25,12 @@ const ActiveCardComponent = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   text-align: center;
   padding: 3rem;
+  @media only screen and (max-width: 680px) {
+    padding: 0 3rem;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
 `;
 
 const CardTitle = styled.h4`

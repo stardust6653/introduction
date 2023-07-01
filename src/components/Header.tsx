@@ -49,11 +49,8 @@ const HeaderContents = styled.div`
 
 const Title = styled.h1`
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
-  @media only screen and (max-width: 680px) {
-    font-size: 25px;
-  }
 `;
 
 const TitleAnker = styled.a`

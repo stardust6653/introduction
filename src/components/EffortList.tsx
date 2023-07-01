@@ -34,8 +34,14 @@ const CardListComponent = styled.div`
   grid-gap: 2rem;
   margin-top: 2rem;
   @media only screen and (max-width: 1280px) {
-    width: 85vw;
+    width: 85%;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(1, 1fr);
+  }
+  @media only screen and (max-width: 680px) {
+    padding: 3rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
   }
 `;
