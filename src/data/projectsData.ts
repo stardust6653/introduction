@@ -1,23 +1,23 @@
-import swap from "../images/swap/swap.png";
-import swapDetail from "../images/swap/swap-detail.png";
-import swapEditor from "../images/swap/swap-editor.png";
+import swap from "../images/swap/swap.webp";
+import swapDetail from "../images/swap/swap-detail.webp";
+import swapEditor from "../images/swap/swap-editor.webp";
 
-import blog from "../images/blog/soyeah-blog.png";
-import blogPost from "../images/blog/soyeah-blog-post.png";
-import blogEditor1 from "../images/blog/soyeah-blog-editor1.png";
-import blogEditor2 from "../images/blog/soyeah-blog-editor2.png";
+import blog from "../images/blog/soyeah-blog.webp";
+import blogPost from "../images/blog/soyeah-blog-post.webp";
+import blogEditor1 from "../images/blog/soyeah-blog-editor1.webp";
+import blogEditor2 from "../images/blog/soyeah-blog-editor2.webp";
 
-import instagram from "../images/instagram/instagram.png";
-import instagramPost from "../images/instagram/instagram-post.png";
-import instagramDetail from "../images/instagram/instagram-detail.png";
-import instagramSearch from "../images/instagram/instagram-search.png";
+import instagram from "../images/instagram/instagram.webp";
+import instagramPost from "../images/instagram/instagram-post.webp";
+import instagramDetail from "../images/instagram/instagram-detail.webp";
+import instagramSearch from "../images/instagram/instagram-search.webp";
 
-import scissorRockPaper from "../images/scissor-rock-paper/scissor-rock-paper.png";
-import scissorRockPaperSave from "../images/scissor-rock-paper/scissor-rock-paper-save.png";
-import scissorRockPaperLoad from "../images/scissor-rock-paper/scissor-rock-paper-load.png";
+import scissorRockPaper from "../images/scissor-rock-paper/scissor-rock-paper.webp";
+import scissorRockPaperSave from "../images/scissor-rock-paper/scissor-rock-paper-save.webp";
+import scissorRockPaperLoad from "../images/scissor-rock-paper/scissor-rock-paper-load.webp";
 
-import portfolio from "../images/portfolio/portfolio.png";
-import portfolioProject from "../images/portfolio/portfolio-project.png";
+import portfolio from "../images/portfolio/portfolio.webp";
+import portfolioProject from "../images/portfolio/portfolio-project.webp";
 
 type Props = {
   projectName: string;
