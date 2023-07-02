@@ -1,5 +1,7 @@
 # Soye's Portfolio
 
+배포링크 : https://soye-portfolio.vercel.app/
+
 ## 간단 소개
 
 > 안녕하세요. FE개발자 박소예입니다. <br/>
