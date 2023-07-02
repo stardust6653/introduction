@@ -50,10 +50,7 @@ const OutroLayout = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
-  @media only screen and (max-width: 680px) {
-    padding: 3rem;
-  }
+  padding: 0 3rem;
 `;
 
 const TextBox = styled.div`
