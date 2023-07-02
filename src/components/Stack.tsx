@@ -39,7 +39,7 @@ const Stack = () => {
         {availableStack.map((item) => (
           <>
             <StackItem>
-              <StackImage src={item.src} />
+              <StackImage src={item.src} alt={item.name} />
               <StackName>{item.name}</StackName>
             </StackItem>
           </>
