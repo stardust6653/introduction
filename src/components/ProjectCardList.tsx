@@ -102,7 +102,7 @@ const ArrowButton = styled.button`
   border-radius: 35px;
   font-size: 40px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+  cursor: pointer;
   &:active {
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgb(235, 235, 235);
