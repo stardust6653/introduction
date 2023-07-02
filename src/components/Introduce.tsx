@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { styled } from "styled-components";
-import profile from "../images/profile-photo.png";
+import profile from "../images/profile-photo.webp";
 import { useInterval } from "hooks/useInterval";
 import NameSpaceIcon from "./ui/icons/NameSpaceIcon";
 import BirthIcon from "./ui/icons/BirthIcon";

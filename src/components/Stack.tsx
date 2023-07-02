@@ -2,16 +2,16 @@ import React from "react";
 import Title from "./ui/Title";
 import { styled } from "styled-components";
 
-import react from "../images/stackIcons/React.png";
-import next from "../images/stackIcons/Next.js.png";
-import styledComponents from "../images/stackIcons/styled-components.png";
-import javascript from "../images/stackIcons/javascript.png";
-import typescript from "../images/stackIcons/typescript.png";
-import firebase from "../images/stackIcons/firebase.png";
-import recoil from "../images/stackIcons/recoil.png";
-import redux from "../images/stackIcons/redux.png";
-import scss from "../images/stackIcons/scss.png";
-import reduxToolkit from "../images/stackIcons/redux-toolkit.png";
+import react from "../images/stackIcons/React.webp";
+import next from "../images/stackIcons/Next.js.webp";
+import styledComponents from "../images/stackIcons/styled-components.webp";
+import javascript from "../images/stackIcons/javascript.webp";
+import typescript from "../images/stackIcons/typescript.webp";
+import firebase from "../images/stackIcons/firebase.webp";
+import recoil from "../images/stackIcons/recoil.webp";
+import redux from "../images/stackIcons/redux.webp";
+import scss from "../images/stackIcons/scss.webp";
+import reduxToolkit from "../images/stackIcons/redux-toolkit.webp";
 
 type Props = {
   name: string;
